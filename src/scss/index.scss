@@ -15,5 +15,12 @@ body {
 
 body {
 	background-color: #0d101b;
-	color: #fff;
+	font-family: 'IBM Plex Sans', sans-serif;
+	color: rgb(231, 231, 231);
+	text-align: center;
+}
+
+code {
+	font-family: 'IBM Plex Mono', monospace;
+	color: #f3aa23;
 }
