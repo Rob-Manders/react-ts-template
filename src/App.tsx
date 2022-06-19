@@ -1,5 +1,6 @@
 
 import React from 'react'
+import test from './assets/test.jpg'
 
 export default function App() {
 	return (
@@ -8,12 +9,9 @@ export default function App() {
 			<p>A template for building static React apps in Typescript.</p>
 			<p>I could use <code>create-react-app</code>, but I don't like the bloat...</p>
 			<p>Includes styled-components.</p>
+
+			<img src={test} alt="test image" />
 		</main>
 	)
 }
 
-// A template for building static React apps in Typescript.
-
-// I could use `create-react-app`, but I don't like the bloat...
-
-// Includes styled-components.
