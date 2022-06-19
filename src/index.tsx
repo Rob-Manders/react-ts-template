@@ -1,7 +1,18 @@
 
 import './scss/index.scss'
-import ReactDOM from 'react-dom'
+import { createRoot } from 'react-dom/client'
 import React from 'react'
 import App from './App'
 
-ReactDOM.render(<App />, document.getElementById('root'))
+const title = 'React Typescript Template'
+
+document.title = title
+
+const container = document.createElement('div')
+container.classList.add('app')
+
+document.body.appendChild(container)
+
+const root = createRoot(container)
+
+root.render(<App />)
