@@ -12,6 +12,6 @@ container.classList.add('app')
 
 document.body.appendChild(container)
 
-const root = createRoot(container)
+const root = createRoot(container!)
 
 root.render(<App />)
